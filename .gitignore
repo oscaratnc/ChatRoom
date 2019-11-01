@@ -1,3 +1,4 @@
-./hello.out
+Makefile
 .vscode
-./*.out
+*.out
+hello.cpp

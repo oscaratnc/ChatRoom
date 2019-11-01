@@ -8,7 +8,7 @@
 #include<string>
 #include<sstream>
 
-#define PORT 53000
+#define PORT 53002
 
 
 using namespace std;
@@ -21,7 +21,7 @@ int main() {
     char buffer[1025]; //data buffer of 1k
 
     //a message
-    char *message ="ECHO Welcome to the Chat Room \n";
+    char *message ="Welcome to the Chat Room \n";
 
      //creates a set of socket descriptors
     fd_set master;
